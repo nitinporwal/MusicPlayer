@@ -35,17 +35,20 @@
         android:orientation="horizontal"
         android:gravity="center">
         <ImageButton
+            android:id="@+id/btn_previous"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/ic_baseline_skip_previous_24"
             android:background="@drawable/btn_bg"/>
         <ImageButton
+            android:id="@+id/btn_play"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/ic_baseline_play_arrow_24"
             android:layout_marginHorizontal="12dp"
             android:background="@drawable/btn_bg"/>
         <ImageButton
+            android:id="@+id/btn_next"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/ic_baseline_skip_next_24"
